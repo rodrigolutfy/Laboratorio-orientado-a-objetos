@@ -5,4 +5,3 @@ produto3 = prod("agua", 50.00, 30)
 
 for i in [produto1, produto2, produto3]:
     i.apresentacao()
-
