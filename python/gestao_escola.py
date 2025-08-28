@@ -6,6 +6,9 @@ class Escola:
         self.nota1 = None
         self.nota2 = None
         self.nota_final = None
+
+    def apresentacao(self):
+        print(f"aluno: {self.nome} idade: {self.idade}")
     
     def nota(self, nota_1, nota_2):
         self.nota1 = nota_1
@@ -20,6 +23,19 @@ class Escola:
         else:
             print(f"{self.nome} reprovado {self.nota_final}")
 
+
+
+
+
+
+
+
+
+
+
+
+
+"""
 ze = Escola("Zé da Manga", 18)
 
 ze.nota(7,6)
@@ -29,3 +45,4 @@ print(f"Idade é: {ze.idade}")
 print(f"Nota Prova 1 é: {ze.nota1}")
 print(f"Nota Prova 2 é: {ze.nota2}")
 ze.calcula()
+"""
