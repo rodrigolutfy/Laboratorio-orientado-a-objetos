@@ -22,27 +22,3 @@ class Escola:
             print(f"{self.nome} recuperação {self.nota_final}")
         else:
             print(f"{self.nome} reprovado {self.nota_final}")
-
-
-
-
-
-
-
-
-
-
-
-
-
-"""
-ze = Escola("Zé da Manga", 18)
-
-ze.nota(7,6)
-
-print(f"Nome do aluno é: {ze.nome}")
-print(f"Idade é: {ze.idade}")
-print(f"Nota Prova 1 é: {ze.nota1}")
-print(f"Nota Prova 2 é: {ze.nota2}")
-ze.calcula()
-"""
